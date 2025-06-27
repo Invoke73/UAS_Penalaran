@@ -1,0 +1,5 @@
+Metric,Value
+Accuracy@K,0.9
+Precision@K,0.18
+Recall@K,0.9
+F1-score@K,0.30000000000000004

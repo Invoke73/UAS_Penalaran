@@ -2,6 +2,8 @@
 Proyek ini mengimplementasikan sistem Case-Based Reasoning (CBR) sederhana dalam Python untuk mendukung analisis putusan pengadilan. Sistem ini memanfaatkan data putusan yang diunduh dari Direktori Putusan Mahkamah Agung Republik Indonesia.
 
 ## Struktur Proyek
+
+```bash
 your_project_folder/
 ├── data/
 │   ├── raw/                 # File teks putusan mentah (hasil scraping)
@@ -17,6 +19,7 @@ your_project_folder/
 ├── 05_evaluation.py         # Skrip untuk evaluasi model (Tahap 5)
 ├── requirements.txt         # Daftar dependensi Python
 └── README.md                # Dokumen ini
+```
 
 ## Instalasi
 
@@ -26,7 +29,7 @@ git clone <URL_REPOSITORI_ANDA>
 cd your_project_folder
 ```
 
-3. Buat dan Aktifkan Virtual Environment (Direkomendasikan)
+2. Buat dan Aktifkan Virtual Environment (Direkomendasikan)
 ```bash
 python -m venv venv
 ```

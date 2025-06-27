@@ -12,13 +12,15 @@ your_project_folder/
 │   └── results/             # Hasil prediksi solusi (predictions.csv)
 ├── logs/
 │   └── cleaning.log         # Log pembersihan (opsional)
-├── original_scraper_update.py # Skrip untuk scraping dan pembersihan awal (Tahap 1)
-├── 02_representation.py     # Skrip untuk representasi kasus (Tahap 2)
-├── 03_retrieval.py          # Skrip untuk retrieval kasus (Tahap 3)
-├── 04_predict.py            # Skrip untuk prediksi/reuse solusi (Tahap 4)
-├── 05_evaluation.py         # Skrip untuk evaluasi model (Tahap 5)
+├── notebooks/               # Folder untuk semua skrip Python dan Jupyter Notebooks
+│   ├── _01_scraper.py # Skrip untuk scraping dan pembersihan awal (Tahap 1)
+│   ├── _02_representation.py     # Skrip untuk representasi kasus (Tahap 2)
+│   ├── _03_retrieval.py          # Skrip untuk retrieval kasus (Tahap 3)
+│   ├── _04_predict.py            # Skrip untuk prediksi/reuse solusi (Tahap 4)
+│   └── _05_evaluation.py         # Skrip untuk evaluasi model (Tahap 5)
 ├── requirements.txt         # Daftar dependensi Python
 └── README.md                # Dokumen ini
+
 ```
 
 ## Instalasi
